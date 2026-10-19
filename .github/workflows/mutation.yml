@@ -1,8 +1,7 @@
 name: Mutation sweep
 
 on:
-  schedule:
-    - cron: "47 4 * * *"
+  # schedule removed to prevent automated cron runs on personal fork
   workflow_dispatch:
 
 permissions:
